@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946EC93D1EF77385005FD585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC93C1EF77385005FD585 /* main.m */; };
+		946EC9401EF77385005FD585 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC93F1EF77385005FD585 /* AppDelegate.m */; };
+		946EC9431EF77385005FD585 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9421EF77385005FD585 /* ViewController.m */; };
+		946EC9461EF77385005FD585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946EC9441EF77385005FD585 /* Main.storyboard */; };
+		946EC9481EF77385005FD585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946EC9471EF77385005FD585 /* Assets.xcassets */; };
+		946EC94B1EF77385005FD585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946EC9491EF77385005FD585 /* LaunchScreen.storyboard */; };
+		946EC9561EF77386005FD585 /* LXSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9551EF77386005FD585 /* LXSearchBarTests.m */; };
+		946EC9611EF77386005FD585 /* LXSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9601EF77386005FD585 /* LXSearchBarUITests.m */; };
+		946EC9731EF773DF005FD585 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9721EF773DF005FD585 /* UIImage+ColorImage.m */; };
+		946EC9761EF773ED005FD585 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9751EF773ED005FD585 /* UIColor+Expanded.m */; };
+		946EC97F1EF77AE7005FD585 /* LXSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC97E1EF77AE7005FD585 /* LXSearchController.m */; };
+		946EC9821EF77CE1005FD585 /* NextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9811EF77CE1005FD585 /* NextController.m */; };
+		946EC9851EF77FBE005FD585 /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EC9841EF77FBE005FD585 /* SearchResultController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		946EC9521EF77386005FD585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946EC9301EF77385005FD585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946EC9371EF77385005FD585;
+			remoteInfo = LXSearchBar;
+		};
+		946EC95D1EF77386005FD585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946EC9301EF77385005FD585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946EC9371EF77385005FD585;
+			remoteInfo = LXSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		946EC9381EF77385005FD585 /* LXSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946EC93C1EF77385005FD585 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		946EC93E1EF77385005FD585 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		946EC93F1EF77385005FD585 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		946EC9411EF77385005FD585 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		946EC9421EF77385005FD585 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		946EC9451EF77385005FD585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		946EC9471EF77385005FD585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946EC94A1EF77385005FD585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		946EC94C1EF77385005FD585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946EC9511EF77386005FD585 /* LXSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946EC9551EF77386005FD585 /* LXSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSearchBarTests.m; sourceTree = "<group>"; };
+		946EC9571EF77386005FD585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946EC95C1EF77386005FD585 /* LXSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946EC9601EF77386005FD585 /* LXSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSearchBarUITests.m; sourceTree = "<group>"; };
+		946EC9621EF77386005FD585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946EC96F1EF773A3005FD585 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		946EC9711EF773DF005FD585 /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		946EC9721EF773DF005FD585 /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		946EC9741EF773ED005FD585 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		946EC9751EF773ED005FD585 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		946EC97D1EF77AE7005FD585 /* LXSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSearchController.h; sourceTree = "<group>"; };
+		946EC97E1EF77AE7005FD585 /* LXSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSearchController.m; sourceTree = "<group>"; };
+		946EC9801EF77CE1005FD585 /* NextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextController.h; sourceTree = "<group>"; };
+		946EC9811EF77CE1005FD585 /* NextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextController.m; sourceTree = "<group>"; };
+		946EC9831EF77FBE005FD585 /* SearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultController.h; sourceTree = "<group>"; };
+		946EC9841EF77FBE005FD585 /* SearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946EC9351EF77385005FD585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946EC94E1EF77386005FD585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946EC9591EF77386005FD585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946EC92F1EF77385005FD585 = {
+			isa = PBXGroup;
+			children = (
+				946EC93A1EF77385005FD585 /* LXSearchBar */,
+				946EC9541EF77386005FD585 /* LXSearchBarTests */,
+				946EC95F1EF77386005FD585 /* LXSearchBarUITests */,
+				946EC9391EF77385005FD585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		946EC9391EF77385005FD585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946EC9381EF77385005FD585 /* LXSearchBar.app */,
+				946EC9511EF77386005FD585 /* LXSearchBarTests.xctest */,
+				946EC95C1EF77386005FD585 /* LXSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946EC93A1EF77385005FD585 /* LXSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				946EC93E1EF77385005FD585 /* AppDelegate.h */,
+				946EC93F1EF77385005FD585 /* AppDelegate.m */,
+				946EC9411EF77385005FD585 /* ViewController.h */,
+				946EC9421EF77385005FD585 /* ViewController.m */,
+				946EC97D1EF77AE7005FD585 /* LXSearchController.h */,
+				946EC97E1EF77AE7005FD585 /* LXSearchController.m */,
+				946EC9801EF77CE1005FD585 /* NextController.h */,
+				946EC9811EF77CE1005FD585 /* NextController.m */,
+				946EC9831EF77FBE005FD585 /* SearchResultController.h */,
+				946EC9841EF77FBE005FD585 /* SearchResultController.m */,
+				946EC9701EF773D6005FD585 /* Category */,
+				946EC9441EF77385005FD585 /* Main.storyboard */,
+				946EC9471EF77385005FD585 /* Assets.xcassets */,
+				946EC9491EF77385005FD585 /* LaunchScreen.storyboard */,
+				946EC94C1EF77385005FD585 /* Info.plist */,
+				946EC96F1EF773A3005FD585 /* PrefixHeader.pch */,
+				946EC93B1EF77385005FD585 /* Supporting Files */,
+			);
+			path = LXSearchBar;
+			sourceTree = "<group>";
+		};
+		946EC93B1EF77385005FD585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				946EC93C1EF77385005FD585 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		946EC9541EF77386005FD585 /* LXSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				946EC9551EF77386005FD585 /* LXSearchBarTests.m */,
+				946EC9571EF77386005FD585 /* Info.plist */,
+			);
+			path = LXSearchBarTests;
+			sourceTree = "<group>";
+		};
+		946EC95F1EF77386005FD585 /* LXSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				946EC9601EF77386005FD585 /* LXSearchBarUITests.m */,
+				946EC9621EF77386005FD585 /* Info.plist */,
+			);
+			path = LXSearchBarUITests;
+			sourceTree = "<group>";
+		};
+		946EC9701EF773D6005FD585 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				946EC9711EF773DF005FD585 /* UIImage+ColorImage.h */,
+				946EC9721EF773DF005FD585 /* UIImage+ColorImage.m */,
+				946EC9741EF773ED005FD585 /* UIColor+Expanded.h */,
+				946EC9751EF773ED005FD585 /* UIColor+Expanded.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946EC9371EF77385005FD585 /* LXSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946EC9651EF77386005FD585 /* Build configuration list for PBXNativeTarget "LXSearchBar" */;
+			buildPhases = (
+				946EC9341EF77385005FD585 /* Sources */,
+				946EC9351EF77385005FD585 /* Frameworks */,
+				946EC9361EF77385005FD585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXSearchBar;
+			productName = LXSearchBar;
+			productReference = 946EC9381EF77385005FD585 /* LXSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		946EC9501EF77386005FD585 /* LXSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946EC9681EF77386005FD585 /* Build configuration list for PBXNativeTarget "LXSearchBarTests" */;
+			buildPhases = (
+				946EC94D1EF77386005FD585 /* Sources */,
+				946EC94E1EF77386005FD585 /* Frameworks */,
+				946EC94F1EF77386005FD585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946EC9531EF77386005FD585 /* PBXTargetDependency */,
+			);
+			name = LXSearchBarTests;
+			productName = LXSearchBarTests;
+			productReference = 946EC9511EF77386005FD585 /* LXSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946EC95B1EF77386005FD585 /* LXSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946EC96B1EF77386005FD585 /* Build configuration list for PBXNativeTarget "LXSearchBarUITests" */;
+			buildPhases = (
+				946EC9581EF77386005FD585 /* Sources */,
+				946EC9591EF77386005FD585 /* Frameworks */,
+				946EC95A1EF77386005FD585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946EC95E1EF77386005FD585 /* PBXTargetDependency */,
+			);
+			name = LXSearchBarUITests;
+			productName = LXSearchBarUITests;
+			productReference = 946EC95C1EF77386005FD585 /* LXSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946EC9301EF77385005FD585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "\U0010zhongzhi";
+				TargetAttributes = {
+					946EC9371EF77385005FD585 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					946EC9501EF77386005FD585 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 946EC9371EF77385005FD585;
+					};
+					946EC95B1EF77386005FD585 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 946EC9371EF77385005FD585;
+					};
+				};
+			};
+			buildConfigurationList = 946EC9331EF77385005FD585 /* Build configuration list for PBXProject "LXSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946EC92F1EF77385005FD585;
+			productRefGroup = 946EC9391EF77385005FD585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946EC9371EF77385005FD585 /* LXSearchBar */,
+				946EC9501EF77386005FD585 /* LXSearchBarTests */,
+				946EC95B1EF77386005FD585 /* LXSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946EC9361EF77385005FD585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946EC94B1EF77385005FD585 /* LaunchScreen.storyboard in Resources */,
+				946EC9481EF77385005FD585 /* Assets.xcassets in Resources */,
+				946EC9461EF77385005FD585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946EC94F1EF77386005FD585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946EC95A1EF77386005FD585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946EC9341EF77385005FD585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946EC97F1EF77AE7005FD585 /* LXSearchController.m in Sources */,
+				946EC9431EF77385005FD585 /* ViewController.m in Sources */,
+				946EC9731EF773DF005FD585 /* UIImage+ColorImage.m in Sources */,
+				946EC9821EF77CE1005FD585 /* NextController.m in Sources */,
+				946EC9851EF77FBE005FD585 /* SearchResultController.m in Sources */,
+				946EC9401EF77385005FD585 /* AppDelegate.m in Sources */,
+				946EC93D1EF77385005FD585 /* main.m in Sources */,
+				946EC9761EF773ED005FD585 /* UIColor+Expanded.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946EC94D1EF77386005FD585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946EC9561EF77386005FD585 /* LXSearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946EC9581EF77386005FD585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946EC9611EF77386005FD585 /* LXSearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		946EC9531EF77386005FD585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946EC9371EF77385005FD585 /* LXSearchBar */;
+			targetProxy = 946EC9521EF77386005FD585 /* PBXContainerItemProxy */;
+		};
+		946EC95E1EF77386005FD585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946EC9371EF77385005FD585 /* LXSearchBar */;
+			targetProxy = 946EC95D1EF77386005FD585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		946EC9441EF77385005FD585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946EC9451EF77385005FD585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		946EC9491EF77385005FD585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946EC94A1EF77385005FD585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946EC9631EF77386005FD585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		946EC9641EF77386005FD585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946EC9661EF77386005FD585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXSearchBar/PrefixHeader.pch";
+				INFOPLIST_FILE = LXSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		946EC9671EF77386005FD585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXSearchBar/PrefixHeader.pch";
+				INFOPLIST_FILE = LXSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		946EC9691EF77386005FD585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXSearchBar.app/LXSearchBar";
+			};
+			name = Debug;
+		};
+		946EC96A1EF77386005FD585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXSearchBar.app/LXSearchBar";
+			};
+			name = Release;
+		};
+		946EC96C1EF77386005FD585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXSearchBar;
+			};
+			name = Debug;
+		};
+		946EC96D1EF77386005FD585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongzhi.LXSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946EC9331EF77385005FD585 /* Build configuration list for PBXProject "LXSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946EC9631EF77386005FD585 /* Debug */,
+				946EC9641EF77386005FD585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946EC9651EF77386005FD585 /* Build configuration list for PBXNativeTarget "LXSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946EC9661EF77386005FD585 /* Debug */,
+				946EC9671EF77386005FD585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		946EC9681EF77386005FD585 /* Build configuration list for PBXNativeTarget "LXSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946EC9691EF77386005FD585 /* Debug */,
+				946EC96A1EF77386005FD585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		946EC96B1EF77386005FD585 /* Build configuration list for PBXNativeTarget "LXSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946EC96C1EF77386005FD585 /* Debug */,
+				946EC96D1EF77386005FD585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946EC9301EF77385005FD585 /* Project object */;
+}
